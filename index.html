@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trimtip | Making Editing Easier</title>
-    <link rel="stylesheet" href="index.css">
+    <title>Trimtipz | Making Editing Easier</title>
+    <link rel="stylesheet" href="Styles/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
@@ -14,21 +14,21 @@
     <nav>
         <div class="nav-bar">
             <i class='bx bx-menu sidebarOpen'></i>
-            <span class="logo navLogo"><a href="#">Trimtip</a></span>
+            <span class="logo navLogo"><a href="#">Trimtipz</a></span>
 
 
             <div class="menu">
                 <div class="logo-toggle">
-                    <span class="logo"><a href="#">Trimtip</a></span>
+                    <span class="logo"><a href="#">Trimtipz</a></span>
                     <i class='bx bx-x sidebarClose'></i>
                 </div>
 
                 <ul class="nav-links">
-                    <li><a href="http://127.0.0.1:5500/index.html">Home</a></li>
-                    <li><a href="http://127.0.0.1:5500/intro-page.html">Intros</a></li>
-                    <li><a href="http://127.0.0.1:5500/about-page.html">About us</a></li>
-                    <li><a href="http://127.0.0.1:5500/contact-page.html">Contact us</a></li>
-                    <li><a href="http://127.0.0.1:5500/privacy-page.html">policy</a></li>
+                    <li><a href="./">Home</a></li>
+                    <li><a href="intro-page.html">Intros</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="./contact.html">Contact us</a></li>
+                    <li><a href="./privacy.html">policy</a></li>
                 </ul>
             </div>
 
@@ -45,9 +45,9 @@
                         </div>
 
                         <div class="search-field">
-                            <input class="search2" type="text" placeholder="Search..." id="test"  >
-                            <form class="search2" action="source.html" method="get" id="searchForm"><i class='bx bx-search'></i></form>
-                            
+                            <input type="text" name="" placeholder="Search..." id="search-item"
+                            onkeyup="search()"> 
+                            <i class='bx bx-search'></i>                            
                         </div>
                     </div>
                 </div>    
@@ -62,35 +62,35 @@
                 <div class="item active">
                     <img src="pic/Puss pic (1).jpg" alt="">
                     <div class="content">
-                        <a href="http://127.0.0.1:5500/PussinBoots.html#"><h2>Puss in boots movie clips</h2></a>
+                        <a href="./PussinBoots.html"><h2>Puss in boots movie clips</h2></a>
                     </div>
                 </div>
 
                 <div class="item">
                     <img src="pic/Captain Marvel pic (1).jpg" alt="">
                     <div class="content">
-                        <a href="http://127.0.0.1:5500/Captain-Marvel.html"><h2>Captain Marvel movie clips</h2></a>
+                        <a href="./Captain-Marvel.html"><h2>Captain Marvel movie clips</h2></a>
                     </div>
                 </div>
 
                 <div class="item">
                     <img src="pic/Sonic pic (2).jpg" alt="">
                     <div class="content">
-                        <a href="http://127.0.0.1:5500/Sonicclips.html"><h2>Sonic movie clips</h2></a>
+                        <a href="./Sonicclips.html"><h2>Sonic movie clips</h2></a>
                     </div>
                 </div>
 
                 <div class="item">
                     <img src="pic/Lance pic.jpg" alt="">
                     <div class="content">
-                        <a href="http://127.0.0.1:5500/Lance-Sterling.html"><h2>Lance Sterling movie clips</h2></a>
+                        <a href="./Lance-Sterling.html"><h2>Lance Sterling movie clips</h2></a>
                     </div>
                 </div>
 
                 <div class="item">
                     <img src="pic/Del Spooner pic (1).jpg" alt="">
                     <div class="content">
-                        <a href="http://127.0.0.1:5500/DelSpoonerclips.html"><h2>Del Spooner Movie clips</h2></a>
+                        <a href="./DelSpoonerclips.html"><h2>Del Spooner Movie clips</h2></a>
                     </div>
                 </div>
 
@@ -114,9 +114,9 @@
 
 
 
-        <div class="containing">
+        <div class="containing" id="product-list">
 
-            <h1 class="heading">Our Daily Posts</h1>
+            <h1 class="heading">Our Recent Posts</h1>
     
             <div class="box-containing" style="display: none;">
     
@@ -125,11 +125,11 @@
                         <img src="pic/Captain Marvel pic (1).jpg" alt="">
                     </div>
                     <div class="content">
-                        <a href="http://127.0.0.1:5500/Captain-Marvel.html"><h3> Captain Marvel movie clips</h3>
+                        <a href="Captain-Marvel.html"><h3> Captain Marvel movie clips (720p)</h3>
                         </a>
                         <div class="icons">
                             <span> <i class="fas fa-calendar"></i><time class="timeago" datetime="2023-11-20T09:24:17Z"></time></span>
-                            <span> <i class="fas fa-user"></i> Trixtip </span>
+                            <span> <i class="fas fa-user"></i> Trixtipz </span>
                         </div>
                     </div>
                 </div>
@@ -139,11 +139,11 @@
                         <img src="pic/Ms Marvel pic.jpg" alt="">
                     </div>
                     <div class="content">
-                        <a href="http://127.0.0.1:5500/Ms-Marvel.html"><h3>Ms Marvel movie clips</h3>
+                        <a href="Ms-Marvel.html"><h3>Ms Marvel movie clips (720p)</h3>
                         </a>
                         <div class="icons">
                             <span> <i class="fas fa-calendar"></i><time class="timeago" datetime="2023-11-20T09:24:17Z"></time></span>
-                            <span> <i class="fas fa-user"></i> Trixtip </span>
+                            <span> <i class="fas fa-user"></i> Trixtipz </span>
                         </div>
                     </div>
                 </div>
@@ -153,11 +153,11 @@
                         <img src="pic/Monica pic.jpg" alt="">
                     </div>
                     <div class="content">
-                        <a href="http://127.0.0.1:5500/Monica-Rambeau.html"><h3>Monica Rambeau movie clips</h3>
+                        <a href="Monica-Rambeau.html"><h3>Monica Rambeau movie clips (720p)</h3>
                         </a>
                         <div class="icons">
                             <span> <i class="fas fa-calendar"></i><time class="timeago" datetime="2023-11-20T09:24:17Z"></time></span>
-                            <span> <i class="fas fa-user"></i> Trixtip </span>
+                            <span> <i class="fas fa-user"></i> Trixtipz </span>
                         </div>
                     </div>
                 </div>
@@ -167,11 +167,11 @@
                         <img src="pic/Nick Fury pic.jpg" alt="">
                     </div>
                     <div class="content">
-                        <a href="http://127.0.0.1:5500/Nick-Fury.html"><h3>Nick Fury movie clips</h3>
+                        <a href="Nick-Fury.html"><h3>Nick Fury movie clips (720p)</h3>
                         </a>
                         <div class="icons">
                             <span> <i class="fas fa-calendar"></i><time class="timeago" datetime="2023-11-20T09:24:17Z"></time></span>
-                            <span> <i class="fas fa-user"></i> Trixtip </span>
+                            <span> <i class="fas fa-user"></i> Trixtipz </span>
                         </div>
                     </div>
                 </div>
@@ -181,11 +181,11 @@
                         <img src="pic/Puss pic (1).jpg" alt="">
                     </div>
                     <div class="content">
-                        <a href="http://127.0.0.1:5500/PussinBoots.html#"><h3>Puss in Boots movie clips</h3>
+                        <a href="PussinBoots.html"><h3>Puss in Boots movie clips (720p)</h3>
                         </a>
                         <div class="icons">
                             <span class="first"> <i class="fas fa-calendar"></i><time class="timeago" datetime="2023-11-21T9:12:00Z"></time></span>
-                            <span class="second"> <i class="fas fa-user"></i> Trixtip </span>
+                            <span class="second"> <i class="fas fa-user"></i> Trixtipz </span>
                         </div>
                     </div>
                 </div>
@@ -195,11 +195,11 @@
                         <img src="pic/Softpaws pic 1.jpg" alt="">
                     </div>
                     <div class="content">
-                        <a href="http://127.0.0.1:5500/softpawsclips.html"><h3>Kitty Softpaws movie clips</h3>
+                        <a href="softpawsclips.html"><h3>Kitty Softpaws movie clips (720p)</h3>
                         </a>
                         <div class="icons">
                             <span> <i class="fas fa-calendar"></i><time class="timeago" datetime="2023-11-21T09:9:17Z"></time></span>
-                            <span> <i class="fas fa-user"></i> Trixtip </span>
+                            <span> <i class="fas fa-user"></i> Trixtipz </span>
                         </div>
                     </div>
                 </div>
@@ -209,11 +209,11 @@
                         <img src="pic/Wolve pic 1.jpg" alt="">
                     </div>
                     <div class="content">
-                        <a href="http://127.0.0.1:5500/wolfclips.html"><h3>Death(Wolve) movie clips</h3>
+                        <a href="wolfclips.html"><h3>Death(Wolf) movie clips (720p)</h3>
                         </a>
                         <div class="icons">
                             <span> <i class="fas fa-calendar"></i><time class="timeago" datetime="2023-11-24T18:52:00Z"></time></span>
-                            <span> <i class="fas fa-user"></i> Trixtip </span>
+                            <span> <i class="fas fa-user"></i> Trixtipz </span>
                         </div>
                     </div>
                 </div>
@@ -223,11 +223,11 @@
                         <img src="pic/Sonic pic (1).jpg" alt="">
                     </div>
                     <div class="content">
-                        <a href="http://127.0.0.1:5500/Sonicclips.html"><h3>Sonic movie clips</h3>
+                        <a href="Sonicclips.html"><h3>Sonic the Hedgehog movie clips (720p)</h3>
                         </a>
                         <div class="icons">
                             <span> <i class="fas fa-calendar"></i><time class="timeago" datetime="2023-11-20T09:24:17Z"></time></span>
-                            <span> <i class="fas fa-user"></i> Trixtip </span>
+                            <span> <i class="fas fa-user"></i> Trixtipz </span>
                         </div>
                     </div>
                 </div>
@@ -237,11 +237,11 @@
                         <img src="pic/Eggman pic (1).jpg" alt="">
                     </div>
                     <div class="content">
-                        <a href="http://127.0.0.1:5500/DrRobotnikclip.html"><h3>Dr Robotnik/Eggman movie clips</h3>
+                        <a href="DrRobotnikclip.html"><h3>Dr Robotnik/Eggman movie clips (720p)</h3>
                         </a>
                         <div class="icons">
                             <span> <i class="fas fa-calendar"></i><time class="timeago" datetime="2023-11-20T09:24:17Z"></time></span>
-                            <span> <i class="fas fa-user"></i> Trixtip </span>
+                            <span> <i class="fas fa-user"></i> Trixtipz </span>
                         </div>
                     </div>
                 </div>
@@ -251,11 +251,11 @@
                         <img src="pic/Tails pic (1).jpg" alt="">
                     </div>
                     <div class="content">
-                        <a href="http://127.0.0.1:5500/Tailsclips.html"><h3>Tails movie clips</h3>
+                        <a href="Tailsclips.html"><h3>Tails Prower movie clips (720p)</h3>
                         </a>
                         <div class="icons">
                             <span> <i class="fas fa-calendar"></i><time class="timeago" datetime="2023-11-20T09:24:17Z"></time></span>
-                            <span> <i class="fas fa-user"></i> Trixtip </span>
+                            <span> <i class="fas fa-user"></i> Trixtipz </span>
                         </div>
                     </div>
                 </div>
@@ -265,11 +265,11 @@
                         <img src="pic/Knuckles pic (1).jpg" alt="">
                     </div>
                     <div class="content">
-                        <a href="http://127.0.0.1:5500/Knucklesclips.html"><h3>Knuckles movie clips</h3>
+                        <a href="Knucklesclips.html"><h3>Knuckles movie clips (720p)</h3>
                         </a>
                         <div class="icons">
                             <span> <i class="fas fa-calendar"></i><time class="timeago" datetime="2023-11-20T09:24:17Z"></time></span>
-                            <span> <i class="fas fa-user"></i> Trixtip </span>
+                            <span> <i class="fas fa-user"></i> Trixtipz </span>
                         </div>
                     </div>
                 </div>                
@@ -279,11 +279,11 @@
                         <img src="pic/Walter pic.jpg" alt="">
                     </div>
                     <div class="content">
-                        <a href="http://127.0.0.1:5500/Walter-Beckett.html"><h3>Walter Beckett movie clips</h3>
+                        <a href="Walter-Beckett.html"><h3>Walter Beckett movie clips (720p)</h3>
                         </a>
                         <div class="icons">
                             <span> <i class="fas fa-calendar"></i><time class="timeago" datetime="2023-11-20T09:24:17Z"></time></span>
-                            <span> <i class="fas fa-user"></i> Trixtip </span>
+                            <span> <i class="fas fa-user"></i> Trixtipz </span>
                         </div>
                     </div>
                 </div>
@@ -293,25 +293,11 @@
                         <img src="pic/Lance pic.jpg" alt="">
                     </div>
                     <div class="content">
-                        <a href="http://127.0.0.1:5500/Lance-Sterling.html"><h3>Lance Sterling movie clips</h3>
+                        <a href="Lance-Sterling.html"><h3>Lance Sterling movie clips (720p)</h3>
                         </a>
                         <div class="icons">
                             <span> <i class="fas fa-calendar"></i><time class="timeago" datetime="2023-11-20T09:24:17Z"></time></span>
-                            <span> <i class="fas fa-user"></i> Trixtip </span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="box">
-                    <div class="image">
-                        <img src="pic/Killain pic.jpg" alt="">
-                    </div>
-                    <div class="content">
-                        <a href="http://127.0.0.1:5500/Killian.html"><h3>Killain movie clips</h3>
-                        </a>
-                        <div class="icons">
-                            <span> <i class="fas fa-calendar"></i><time class="timeago" datetime="2023-11-20T09:24:17Z"></time></span>
-                            <span> <i class="fas fa-user"></i> Trixtip </span>
+                            <span> <i class="fas fa-user"></i> Trixtipz </span>
                         </div>
                     </div>
                 </div>
@@ -321,11 +307,11 @@
                         <img src="pic/El Mariachi pic.jpg" alt="">
                     </div>
                     <div class="content">
-                        <a href="http://127.0.0.1:5500/Mariachiclips.html#"><h3>El Mariachi movie clips</h3>
+                        <a href="Mariachiclips.html"><h3>El Mariachi movie clips (720p)</h3>
                         </a>
                         <div class="icons">
                             <span> <i class="fas fa-calendar"></i><time class="timeago" datetime="2023-11-20T09:24:17Z"></time></span>
-                            <span> <i class="fas fa-user"></i> Trixtip </span>
+                            <span> <i class="fas fa-user"></i> Trixtipz </span>
                         </div>
                     </div>
                 </div>
@@ -335,11 +321,11 @@
                         <img src="pic/Ellie William pic (1).jpg" alt="">
                     </div>
                     <div class="content">
-                        <a href="http://127.0.0.1:5500/Ellieclips.html"><h3>Ellie William movie clips</h3>
+                        <a href="Ellieclips.html"><h3>Ellie William movie clips (720p)</h3>
                         </a>
                         <div class="icons">
                             <span class="first"> <i class="fas fa-calendar"></i><time class="timeago" datetime="2023-11-21T9:12:00Z"></time></span>
-                            <span class="second"> <i class="fas fa-user"></i> Trixtip </span>
+                            <span class="second"> <i class="fas fa-user"></i> Trixtipz </span>
                         </div>
                     </div>
                 </div>
@@ -349,11 +335,11 @@
                         <img src="pic/Joel Millers pic.jpg" alt="">
                     </div>
                     <div class="content">
-                        <a href="http://127.0.0.1:5500/JoelMiller.html"><h3>Joel Millers movie clips</h3>
+                        <a href="JoelMiller.html"><h3>Joel Millers movie clips (720p)</h3>
                         </a>
                         <div class="icons">
                             <span class="first"> <i class="fas fa-calendar"></i><time class="timeago" datetime="2023-11-21T9:12:00Z"></time></span>
-                            <span class="second"> <i class="fas fa-user"></i> Trixtip </span>
+                            <span class="second"> <i class="fas fa-user"></i> Trixtipz </span>
                         </div>
                     </div>
                 </div>
@@ -363,11 +349,11 @@
                         <img src="pic/Carolina pic.jpg" alt="">
                     </div>
                     <div class="content">
-                        <a href="http://127.0.0.1:5500/Carollina.html"><h3>Carolina movie clips</h3>
+                        <a href="Carollina.html"><h3>Carolina movie clips (720p) </h3>
                         </a>
                         <div class="icons">
                             <span> <i class="fas fa-calendar"></i><time class="timeago" datetime="2023-11-20T09:24:17Z"></time></span>
-                            <span> <i class="fas fa-user"></i> Trixtip </span>
+                            <span> <i class="fas fa-user"></i> Trixtipz </span>
                         </div>
                     </div>
                 </div>
@@ -377,11 +363,11 @@
                         <img src="pic/Del Spooner pic (1).jpg" alt="">
                     </div>
                     <div class="content">
-                        <a href="http://127.0.0.1:5500/DelSpoonerclips.html"><h3>Del Spooner movie clips</h3>
+                        <a href="DelSpoonerclips.html"><h3>Del Spooner movie clips (720p)</h3>
                         </a>
                         <div class="icons">
                             <span> <i class="fas fa-calendar"></i><time class="timeago" datetime="2023-11-20T09:24:17Z"></time></span>
-                            <span> <i class="fas fa-user"></i> Trixtip </span>
+                            <span> <i class="fas fa-user"></i> Trixtipz </span>
                         </div>
                     </div>
                 </div>
@@ -408,60 +394,60 @@
                     <ul>
                         <li>
                             <div class="thumbnail">
-                                <a href="http://127.0.0.1:5500/wolfclips.html"><img src="pic/Wolve pic 2.jpg" alt=""></a>
+                                <a href="wolfclips.html"><img src="pic/Wolve pic 2.jpg" alt=""></a>
                             </div>
                             <div class="meta">
-                                <h2><a href="http://127.0.0.1:5500/wolfclips.html">Wolve/Death Movie Intro Clips in 720p Resolution</a></h2>
+                                <h2><a href="wolfclips.html">Wolf/Death Movie Intro Clips in 720p Resolution</a></h2>
                                 <span> <i class="fas fa-calendar"></i><time class="timeago" datetime="2023-11-20T09:24:17Z"></time></span>
                             </div>
                         </li>
                         <li>
                             <div class="thumbnail">
-                                <a href="http://127.0.0.1:5500/Sonicclips.html"><img src="pic/Sonic pic (2).jpg" alt=""></a>
+                                <a href="Sonicclips.html"><img src="pic/Sonic pic (2).jpg" alt=""></a>
                             </div>
                             <div class="meta">
-                                <h2><a href="http://127.0.0.1:5500/Sonicclips.html">Sonic the Hedgehog Movie Intro Clips in 720p Resolution</a></h2>
+                                <h2><a href="Sonicclips.html">Sonic the Hedgehog Movie Intro Clips in 720p Resolution</a></h2>
                                 <span> <i class="fas fa-calendar"></i><time class="timeago" datetime="2023-11-20T09:24:17Z"></time></span>
                             </div>
                         </li>
                         <li>
                             <div class="thumbnail">
-                                <a href="http://127.0.0.1:5500/Lance-Sterling.html"><img src="pic/Lance pic.jpg" alt=""></a>
+                                <a href="Lance-Sterling.html"><img src="pic/Lance pic.jpg" alt=""></a>
                             </div>
                             <div class="meta">
-                                <h2><a href="http://127.0.0.1:5500/Lance-Sterling.html">Lance Sterling Movie Intro Clips in 720p Resolution</a></h2>
+                                <h2><a href="Lance-Sterling.html">Lance Sterling Movie Intro Clips in 720p Resolution</a></h2>
                                 <span> <i class="fas fa-calendar"></i><time class="timeago" datetime="2023-11-20T09:24:17Z"></time></span>
                             </div>
                         </li>
                         <li>
                             <div class="thumbnail">
-                                <a href="http://127.0.0.1:5500/Ellieclips.html"><img src="pic/Ellie William pic (2).jpg" alt=""></a>
+                                <a href="Ellieclips.html"><img src="pic/Ellie William pic (2).jpg" alt=""></a>
                             </div>
                             <div class="meta">
-                                <h2><a href="http://127.0.0.1:5500/Ellieclips.html">Ellie William Movie Intro Clips in 720p Resolution </a></h2>
+                                <h2><a href="Ellieclips.html">Ellie William Movie Intro Clips in 720p Resolution </a></h2>
                                 <span> <i class="fas fa-calendar"></i><time class="timeago" datetime="2023-11-20T09:24:17Z">/time></span>
                             </div>
                         </li>
                         <li>
                             <div class="thumbnail">
-                                <a href="http://127.0.0.1:5500/Mariachiclips.html#"><img src="pic/El Mariachi pic (2).jpg" alt=""></a>
+                                <a href="Mariachiclips.html"><img src="pic/El Mariachi pic (2).jpg" alt=""></a>
                             </div>
                             <div class="meta">
-                                <h2><a href="http://127.0.0.1:5500/Mariachiclips.html#">El Mariachi Raw Movie Intro Clips in 720p Resolution</a></h2>
+                                <h2><a href="Mariachiclips.html">El Mariachi Raw Movie Intro Clips in 720p Resolution</a></h2>
                                 <span> <i class="fas fa-calendar"></i><time class="timeago" datetime="2023-11-20T09:24:17Z"></time></span>
                             </div>
                         </li>
                         <li>
                             <div class="thumbnail">
-                                <a href="http://127.0.0.1:5500/DelSpoonerclips.html"><img src="pic/Del Spooner pic (2).jpg" alt=""></a>
+                                <a href="DelSpoonerclips.html"><img src="pic/Del Spooner pic (2).jpg" alt=""></a>
                             </div>
                             <div class="meta">
-                                <h2><a href="http://127.0.0.1:5500/DelSpoonerclips.html">Del Spooner Raw Movie Intro Clips in 720p Resolution</a></h2>
+                                <h2><a href="DelSpoonerclips.html">Del Spooner Raw Movie Intro Clips in 720p Resolution</a></h2>
                                 <span> <i class="fas fa-calendar"></i><time class="timeago" datetime="2023-11-20T09:24:17Z"></time></span>
                             </div>
                         </li>
                     </ul>
-                    <a href="http://127.0.0.1:5500/intro-page.html" class="load-more">
+                    <a href="intro-page.html" class="load-more">
                         View more
                         <span class="loading"><span></span></span>
                     </a>
@@ -481,7 +467,7 @@
             </ul>
         </div>
             <div class="footer-bottom">
-                <p>Copyright &copy;2023; All Rights Reserved | Powered by <span class="designer">Trimtip</span></p>   
+                <p>Copyright &copy;2023; All Rights Reserved | Powered by <span class="designer">Trimtipz</span></p>   
             </div>
     </footer>
     
@@ -489,6 +475,6 @@
 
 
 
-    <script src="index.js"></script>
+    <script src="jscode/index.js"></script>
 </body>
 </html>
