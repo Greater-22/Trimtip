@@ -669,7 +669,6 @@ nav .nav-bar .logo a{
     margin: 0 auto; 
     margin-top: 15px;
     background-color: var(--others-color);
-    margin-bottom: 10px;
 }
 
 
@@ -677,7 +676,7 @@ nav .nav-bar .logo a{
     display: flex;
     align-items: center;
     color: var(--text-color);
-    height: 150px;
+    height: 100px;
 }
 
 .contained header h1{
@@ -868,12 +867,16 @@ nav .nav-bar .logo a{
     .contained {
         width: 97%;
         margin-top: 30px;
-        margin-bottom: 30px;
+        margin-bottom: 0px;
     }
 
     .post li .thumbnail {
         width: 100px ;
         height: 100px;
+    }
+
+    .contained header{
+        height: 70px;
     }
 }
 
