@@ -130,10 +130,10 @@ const body = document.querySelector("body"),
 
             loadMoreBtn.onclick = () =>{
                 let boxed = [...document.querySelectorAll('.contains .box-contain .boxes')];
-                for (var i = currentItem; i < currentItem + 3; i++){
+                for (var i = currentItem; i < currentItem + 4; i++){
                     boxed[i].style.display = 'inline-block';
                 }
-                currentItem += 3;
+                currentItem += 4;
 
                 if(currentItem >= boxed.length){
                     loadMoreBtn.style.display = 'none';
